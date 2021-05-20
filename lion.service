@@ -1,0 +1,15 @@
+[Unit]
+Description=JumpServer Lion Service
+After=network.target
+
+[Service]
+Type=simple
+User=root
+Group=root
+
+WorkingDirectory=/opt/lion/
+ExecStart=/opt/lion/lion -f config.yml
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

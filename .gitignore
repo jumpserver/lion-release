@@ -1,0 +1,36 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+.idea
+.DS_Store
+
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+ui/npm-debug.log*
+ui/yarn-debug.log*
+ui/yarn-error.log*
+ui/pnpm-debug.log*
+
+# Editor directories and files
+.vscode
+*.suoui
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
