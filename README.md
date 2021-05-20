@@ -27,8 +27,8 @@ jumpserver/lion:v2.10.0
 ## 原生安装
 
 ### 安装 Guacamole Server
-Lion 是基于 [Apache Guacamole](http://guacamole.apache.org/) 开发，原生部署 Lion 需要有 Guacamole Server （版本 >= 1.3.0）。
-Guacamole Server 安装部署可参考 [Guacamole 官网](https://guacamole.apache.org/doc/gug/installing-guacamole.html)
+Lion 是基于 [Apache Guacamole](http://guacamole.apache.org/) 开发，原生部署 Lion 需要有 [Guacamole Server](https://github.com/apache/guacamole-server) （版本 >= 1.3.0）。
+[Guacamole Server](https://github.com/apache/guacamole-server) 安装部署可参考 [Guacamole 官网](https://guacamole.apache.org/doc/gug/installing-guacamole.html)
 
 ### 安装 Lion（以 v2.10.0 为例）
 从 Release 页面下载 JumpSever 对应版本的 Lion。下载 `lion-v2.10.0-linux-amd64.tar.gz` 到服务器，并解压到 `/opt` 目录下
@@ -83,3 +83,9 @@ WantedBy=multi-user.target
 ```shell
 docker run -d -p 4200:4200 -v /opt/lion-v2.10.0-linux-amd64/data:/opt/lion-v2.10.0-linux-amd64/data guacamole/guacd:1.3.0
 ```
+
+## 致谢
+
+感谢以下项目，带来的启发
+- [guacamole-client](https://github.com/apache/guacamole-client)
+- [next-terminal](https://github.com/dushixiang/next-terminal)
