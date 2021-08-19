@@ -31,3 +31,18 @@ BOOTSTRAP_TOKEN: <PleasgeChangeSameWithJumpserver>
 # REDIS_PORT: 6379
 # REDIS_PASSWORD:
 # REDIS_DB_ROOM:
+
+# 全局禁用上传下载
+# JUMPSERVER_DISABLE_ALL_COPY_PASTE: false
+
+# 全局禁用剪切板粘贴复制
+# JUMPSERVER_DISABLE_ALL_UPLOAD_DOWNLOAD: false
+
+# 开启Remote app的上传下载 ( 需 remote app 可打开文件系统 )
+# JUMPSERVER_REMOTE_APP_UPLOAD_DOWNLOAD_ENABLE: false
+
+# 开启Remote app的剪切板粘贴复制
+# JUMPSERVER_REMOTE_APP_COPY_PASTE_ENABLE: false
+
+# 定时清理挂载盘文件的时间间隔 (单位：小时)，如果设置值 0，则不清理。（ v2.13新增 ）
+# JUMPSERVER_CLEAN_DRIVE_SCHEDULE_TIME: 1
