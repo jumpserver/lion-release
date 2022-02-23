@@ -1,7 +1,8 @@
 # Lion
 
 ## 介绍
-Lion 是 JumpServer 新组件，使用 Golang 和 Vue 重构了 Guacamole，将负责 RDP 和 VNC 等图形化连接。
+Lion 是 JumpServer 图形协议的连接组件，支持 RDP、VNC 协议，使用 Golang 和 Vue 重构 Guacamole-client，名字来源于 Dota 英雄 [Lion](https://www.dota2.com/hero/lion)。
+
 该仓库主要用于配置介绍和 Release 发布。
 
 ## 配置
